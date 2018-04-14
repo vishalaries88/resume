@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.11)  14 APR 2018 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.11)  14 APR 2018 17:39
 entering extended mode
 **./cv_7.tex
 (cv_7.tex
@@ -220,9 +220,9 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 78.
 \cvitemwithcommentmainbox=\box26
 \cvitemwithcommentmainlength=\skip65
 \cvitemwithcommentcommentlength=\skip66
-) (moderncvcolorblue.sty
-Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter
- color scheme: blue
+) (moderncvcolorblack.sty
+Package: moderncvcolorblack 2012/10/31 v1.2.0 modern curriculum vitae and lette
+r color scheme: black
 )
 ("C:\Users\vishalv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjust
 box.sty"
@@ -629,11 +629,11 @@ Package rerunfilecheck Info: File `cv_7.out' has not changed.
 (rerunfilecheck)             Checksum: 53AA047CF3D4ECC268146CEB3D07BEDA;646.
  ) 
 Here is how much of TeX's memory you used:
- 12445 strings out of 493634
- 185463 string characters out of 3134423
- 307098 words of memory out of 3000000
+ 12439 strings out of 493634
+ 185399 string characters out of 3134423
+ 307049 words of memory out of 3000000
  15597 multiletter control sequences out of 15000+200000
- 75927 words of font info for 83 fonts, out of 3000000 for 9000
+ 75624 words of font info for 80 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  43i,13n,67p,772b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/vishalv/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
@@ -646,7 +646,7 @@ s/type1/public/lm/lmss17.pfb><C:/Users/vishalv/AppData/Local/Programs/MiKTeX 2.
 iKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Users/vishalv/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/vishalv/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (3 pages, 199270 bytes).
+Output written on cv_7.pdf (3 pages, 199190 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
