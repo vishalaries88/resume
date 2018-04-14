@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[export]{adjustbox}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Vishal} % Your first name
+\familyname{Vishal} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Cottastrasse 3}{Stuttgart, 70178}
+\mobile{(+49) 176 47131895}
+\email{vishalaries88@gmail.com}
+
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{picture.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+\section{Profile Summary }
+An accomplished software developer with 5.2 years of experience in the field of embedded and real time critical software systems using C/C++ as high-level languages.
+Expertise includes software development using OOP/OOAD,data structures, design patterns, and SDLC techniques, implementing and improving complex workflows in a time critical environment, enhancing the code quality for optimization and robustness and in-depth knowledge of  AGILE scrum based methodology.
+Highly motivated to work in a team or a self managed project.
+%\begin{itemize}
+%\item Experience in developing critical pre-analytical medical systems.
+%\item Experienced  with tools like \textbf{Git}, \textbf{SVN}, \textbf{Jenkins}, \textbf{JIRA}.
+%\item Experienced  with woking in \textbf{AGILE} scrum based environment.
+%\item Experience with Natural Language Techniques using NLTK, Word2Vec, LSA , LSI , POS etc.
+%\item Strong Analytical, Interpersonal, Troubleshooting and Communication Skills.
+%\item Fluent in English, strategic thinker, self-starter and an excellent team-player;
+%\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+\cvitem{Programming Languages }{\-\hspace{2cm}C,C++(with STL and Boost), Python}
+\cvitem{Tools}{\-\hspace{5.5cm}Jenkins, Jira, Git, CMake, GDB, CANUtils}
+\cvitem{Frameworks}{\-\hspace{4.3cm}ZMQ, Protobuf, GoogleTest , GMock}
+\cvitem{OS Platforms}{\-\hspace{4.1cm}Linux,QNX}
+\cvitem{Automation Framework}{\-\hspace{2.3cm}Sikuli, Robotium,Appium}
+\cvitem{IDEs}{\-\hspace{5.6cm}Visual Studio, Eclipse, QTCreator}
+\cvitem{Protocols}{\-\hspace{4.8cm}TCP/IP,CAN,RS232,RS485}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{Jan-2016--Present}{Software Developer(Embedded)}{\textsc{Roche}}{Stuttgart}{}{
+\begin{itemize}
+\item Developed and maitained driver for Motion control boards based on CANopen.
+\item Created a micro-service to use the motion control boards as part for a real-time  development framework for medical devices.
+\item Implemented complex workflows in medical devices for lab automation.
+\item Responsible for testing the code quality and reviews.
+\end{itemize}}
+
+\cventry{Aug-2015--Oct-2015}{Junior Researcher(Student)}{\textsc{Fraunhofer SIT}}{Darmstadt}{}{
+\begin{itemize}
+\item Explored the area of software obfuscation specifically for Java, JavaScript, and Python.
+\item Implemented a new obfuscator(\textbf{Java}) by combining existing obfuscators and evaluated it against the existed techniques for a research project.
+\end{itemize}}
+
+\cventry{Aug-2014--Aug 2015}{Software Test Engineer(Student)}{\textsc{Deutsche Telekom}}{Darmstadt}{}{
+\begin{itemize}
+\item Developed a model based(using PyModel) test suit framework for mobile handheld devices like e-reader, tablets and mobile phones using the Sikuli framework.
+\item Writing test cases using \textbf{Roboitum} and \textbf{Appium} interface.
+\item Indulge in manual testing and reporting bugs on Redmine for Android applications and e-reader devices
+\end{itemize}}
+
+\cventry{Aug-2014--Aug 2015}{Junior Reasearch Assistant(Student)}{\textsc{Technical University Darmstadt}}{Darmstadt}{}{
+\begin{itemize}
+\item Investigated supervised and unsupervised learning techniques using semantic analysis to develop an algorithm for finding a coherent set of documents.
+\item Implemented a clustering technique for initial filtering of documents from a large corpus(New YorkTimes data-set).
+\item Implementing existing approaches and real user evaluation.
+\item Enhanced existing algorithm for document semantic matching using \textbf{NLP} techniques.
+\end{itemize}}
+
+\cventry{Aug-2012--Sep2013}{Lead Engineer}{\textsc{Samsung}}{Bangalore (India)}{}{
+\begin{itemize}
+\item Real Time WiFi Traffic Generator
+\begin{itemize}
+\item Explored  the various traffic modeling parameters for the different type of video streaming traffic.
+\item Involved in research and scope estimation of the project.
+\item Implemented algorithm for parsing raw packets flowing on the networks in \textbf{C++}.
+\item Responsible for network level communication algorithm for different traffic using sockets library
+\item Implemented the software for generating different traffic models for a different parameter.
+\item Ensured the software quality by unit tests and functional testing of the modules.
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item Test tool development for SIPC conformance
+\begin{itemize}
+\item Understanding the API to interact with an application processor and the communication processor.
+\item Understanding proprietary  protocols for Samsung inter-process communication.
+\item Ensured the protocol by writing units tests using \textbf{JUnit}.
+\end{itemize}
+\end{itemize}
+}
+
+
+\cventry{Mar-2010--Aug-2012}{Software Engineer}{\textsc{Sasken Telecommunication Pvt. Ltd.}}{Bangalore (India)}{}{
+\begin{itemize}
+\item Windows Multimedia (Video)
+\begin{itemize}
+\item To perform the unit testing for the fixes.
+\item To perform the real time debugging using windows debugger and analysing the logs and
+finding the root cause for the issue.
+\item Development and integration of algorithms to improve the decode times for frames(MPEG-4,H264 ) in \textbf{C++}.
+\item Handled issues in video decoder module in windows Media Foundation framework using \textbf{C++}.
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item Audio DSP subsystem on mobile platform - Sustenance and Maintenance
+\begin{itemize}
+\item Performing Root Cause Analysis (RCA) by analysing the logs obtained during real time
+use case and fixing the errors raised by various teams during different stages of \textbf{SDLC}.
+\item Responsible for fixing issues in Audio-Data(amr,mp3,3gp) Processing module in DSP application software written in \textbf{C}. 
+\item Involved test automation using  Nokia testing tool ATS3 and AT Commands.
+\item Responsible for writing automation scripts in \textbf{python} of Nokia head phones.
+\item Involved in \textbf{Agile} methodology (\textbf{Scrum}).
+\item Involved in documentation of the call flow and design requirements of automated test tools
+\end{itemize}
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2013--2015}{Distributed Software Systems}{}{Masters of Science}
+{Technical University Darmstadt,Darmstadt(Germany)}{}  % Arguments not required can be left empty
+\cventry{2005--2009}{Computer Science and Engineering}{}{Bachelor of Technology}
+{Kurukshetra University,Kurukshetra(India)}{}
+
+
+\section{Masters Thesis}
+
+\cvitem{Title}{Storytelling : \emph{ Finding the coherence between large set of documents}}
+%\cvitem{Supervisors}{Dr. Benedikt Schmidt}
+\cvitem{Description}{This thesis explored the domain of \textbf{Text Mining} and \textbf{Natural Language Processing} to find the most coherent news articles from a large set of NewYork Times corpus.Impelementaion of this thesis is done in \textbf{python}. Apache\textbf{ Solr} server is setup and queried for accessing the dataset.}
+{Packages used : \textbf{Python}(nltk, math, os, string, numpy, pulp,time, pysolr, urllib2, json,sklear,scipy)}
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Hindi}{Mothertongue}{}
+\cvitemwithcomment{English}{Fluent}{ Fluent}
+\cvitemwithcomment{Deutsch}{Basic}{A2}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards and Presentations}
+%
+%\cvitem{2011}{Best Employee award of the quarter}
+%\cvitem{2014}{Paper presentation at GI Informatik Tag at HPI, Postdam, Germany}
+
+%----------------------------------------------------------------------------------------
+%	EXTRACURRICULLAR SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Extracurricular Activities}
+%
+%\cvitem{2014-15}{President : Darmastadt Indian Association, Damstadt, Germany}
+%\cvitem{2015-16}{Member of advisory committee, Darmastadt Indian Association, Damstadt, Germany}
+
+%\section{References}
+%\begin{itemize}
+%\item \cventry{}{Senior Test Manager, Deutsche Telekom, Darmstadt }{\textsc{Elmar Vendel \href{mailto:e.vendel@telekom.de}{ [e.vendel@telekom.de]}}}{}{}{}
+%\item \cventry{}{Senior Test Manger, Deutsche Telekom, Darmstadt }{\textsc{Elmar Vendel}}{}{}{}
+%
+%\end{itemize}
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-3] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
