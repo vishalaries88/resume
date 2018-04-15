@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.11)  14 APR 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.11)  14 APR 2018 18:06
 entering extended mode
 **./cv_7.tex
 (cv_7.tex
@@ -582,7 +582,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box32
- <pictures/picture.jpg, id=29, 401.5pt x 401.5pt>
+ <pictures/picture.jpg, id=33, 401.5pt x 401.5pt>
 File: pictures/picture.jpg Graphic file (type jpg)
 
 <use pictures/picture.jpg>
@@ -596,14 +596,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 81.
+(Font)              <10.95> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 81.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 81.
+(Font)              <6> on input line 80.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 100.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 99.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
@@ -611,28 +611,29 @@ Package microtype Info: Character `029' is missing
 [1
 
 {C:/Users/vishalv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./picture
-s/picture.jpg>] [2]
-Underfull \hbox (badness 1412) in paragraph at lines 179--179
+s/picture.jpg>]
+Underfull \hbox (badness 1412) in paragraph at lines 175--175
 []\T1/lmss/bx/n/10.95 Distributed Soft-ware Sys-tems\T1/lmss/m/n/10.95 (+20) , 
 Mas-ters of Sci-ence, Tech-ni-cal Uni-ver-sity
  []
 
+[2]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 186.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 182.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
  (cv_7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
 Package rerunfilecheck Info: File `cv_7.out' has not changed.
-(rerunfilecheck)             Checksum: 53AA047CF3D4ECC268146CEB3D07BEDA;646.
+(rerunfilecheck)             Checksum: 2DCD6561C5C4BB5418D5C328C94708FF;823.
  ) 
 Here is how much of TeX's memory you used:
- 12439 strings out of 493634
- 185399 string characters out of 3134423
+ 12441 strings out of 493634
+ 185421 string characters out of 3134423
  307050 words of memory out of 3000000
- 15597 multiletter control sequences out of 15000+200000
+ 15598 multiletter control sequences out of 15000+200000
  75624 words of font info for 80 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  43i,13n,67p,772b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -646,9 +647,9 @@ s/type1/public/lm/lmss17.pfb><C:/Users/vishalv/AppData/Local/Programs/MiKTeX 2.
 iKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Users/vishalv/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/vishalv/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (3 pages, 200446 bytes).
+Output written on cv_7.pdf (3 pages, 200771 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 24118 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 24126 words of extra memory for PDF output out of 24883 (max. 10000000)
 
